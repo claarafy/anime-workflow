@@ -6,6 +6,8 @@ app.get('/', function(req, res) {
   res.send('<h1>Welcome to Animaniacs!</h1>')
 })
 
+
+
 app.get('/animes', function (req, res) {
   res.send('<h1>School Days</h1>')
 })
